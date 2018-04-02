@@ -1,0 +1,1 @@
+cmd_/root/netfpga_10g/projects/reference_nic/sw/host/driver/nf10.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /root/netfpga_10g/projects/reference_nic/sw/host/driver/nf10.ko /root/netfpga_10g/projects/reference_nic/sw/host/driver/nf10.o /root/netfpga_10g/projects/reference_nic/sw/host/driver/nf10.mod.o ;  true
